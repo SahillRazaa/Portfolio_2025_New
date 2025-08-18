@@ -12,7 +12,6 @@ const gradientBackground = keyframes`
 
 const Container = styled.div`
   width: 100vw
-  padding: 0 5vw;
   height: calc(100vh - 160px);
   background-size: 400% 400%;
   animation: ${gradientBackground} 15s ease infinite;

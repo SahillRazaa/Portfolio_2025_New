@@ -37,6 +37,7 @@ import IIITDMK from "../assets/brands/iiitdm_logo.png";
 import Ekaura from "../assets/brands/ekaura.png";
 
 import Selvaraj from "../assets/testimonial_images/selvaraj.jpeg";
+import Harsha from "../assets/testimonial_images/harsha.jpg";
 
 import Vashisht from "../assets/achievements/vashisht.webp";
 import AlgoUniversity from "../assets/achievements/algoUni.png";
@@ -753,6 +754,13 @@ const testimonies = [
     name: "Dr. M D Selvaraj",
     role: "General Chair, WAMS 2025",
     text: "Sahil played a pivotal role in the success of WAMS 2025 by developing and maintaining our official conference website entirely on his own. Despite being an undergraduate, he demonstrated exceptional technical proficiency, a proactive attitude, and a strong sense of ownership throughout the project. His work was not only reliable and well-executed, but also deeply appreciated by the organizing committee. Sahil’s ability to deliver high-quality solutions independently makes him a truly valuable contributor in any professional setting.",
+  },
+  {
+    id: 2,
+    avatar: Harsha,
+    name: "MNV Harsha Vardhan",
+    role: "Founder & Sr. Manager, Certimate Infotech Pvt. Ltd.",
+    text: "I had the pleasure of mentoring Sahil during his internship at Certimate Infotech Pvt. Ltd, where he consistently demonstrated enthusiasm, adaptability, and a strong willingness to learn. He quickly grasped new concepts, contributed effectively to projects, and delivered quality work on time. Sahil’s problem-solving skills and positive attitude made him a valuable part of the team. I’m confident he will excel in any future role he takes on.",
   },
 ];
 
