@@ -6,7 +6,6 @@ import ProjectGlimps from '../components/ProjectGlimps';
 import TechStacks from '../components/TechStacks';
 import Footer from '../components/Footer';
 import Experience from '../components/Experience';
-import Testimony from '../components/Testimony';
 import Contact from '../components/Contact';
 import Achievement from '../components/Achievement';
 import Navbar from '../components/Navbar';
@@ -126,7 +125,6 @@ const Home = () => {
         <TechStacks />
         <Experience />
         <Achievement />
-        <Testimony />
         <Contact />
         <Footer />
       </ContentWrapper>

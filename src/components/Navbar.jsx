@@ -165,7 +165,7 @@ const Navbar = () => {
   const isHome = location.pathname === '/';
   const navigate = useNavigate();
 
-  const menuItems = ['Home', 'Me', 'Projects', 'Experience', 'Testimonials', 'Contact'];
+  const menuItems = ['Home', 'Recent', 'Projects', 'Experience', 'Contact'];
   const getLinkHref = (item) => {
     const anchor = item.toLowerCase();
     return anchor === 'home' ? '/' : isHome ? `#${anchor}` : `/#${anchor}`;

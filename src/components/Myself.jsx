@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useMemo } from 'react';
-import styled from 'styled-components';
-import Wormhole from '../container/Warmhole';
+import styled, { keyframes } from 'styled-components';
 
 import Certimate from '../assets/brands/certimate.png';
 import Wams from '../assets/brands/WAMS.png';
@@ -27,11 +26,7 @@ const ContentColumn = styled.div`
   flex-direction: column;
   gap: 2rem;
   height: 100%;
-  max-width: 40vw;
-
-  @media (max-width: 1100px) {
-    max-width: 100%;
-  }
+  max-width: 100%;
 `;
 
 const ProjectCard = styled.div`
@@ -112,19 +107,19 @@ const TechScrollContainer = styled.div`
   );
 `;
 
+const scroll = keyframes`
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-300%, 0, 0);
+  }
+`;
+
 const TechScroll = styled.div`
   display: flex;
   align-items: center;
-  animation: scroll 8s linear infinite;
-
-  @keyframes scroll {
-    0% {
-      transform: translate3d(0, 0, 0);
-    }
-    100% {
-      transform: translate3d(-300%, 0, 0);
-    }
-  }
+  animation: ${scroll} 20s linear infinite;
 
   &:hover {
     animation-play-state: paused;
@@ -144,22 +139,6 @@ const LogoImage = styled.img`
   }
 `;
 
-const VisualizationContainer = styled.div`
-  flex: 1;
-  aspect-ratio: 2 / 1;
-  background: #ffffff;
-  border-radius: 1.5rem;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  @media (max-width: 1100px) {
-    display: none;
-  }
-`;
-
 const Myself = () => {
   const animationRef = useRef(null);
 
@@ -174,7 +153,7 @@ const Myself = () => {
     'Admin Panel',
   ], []);
 
-  const duplicatedBrands = useMemo(() => [...brands, ...brands, ...brands, ...brands], []);
+  const duplicatedBrands = useMemo(() => [...brands, ...brands, ...brands, ...brands, ...brands, ...brands, ...brands, ...brands, ...brands], []);
 
   useEffect(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -184,7 +163,7 @@ const Myself = () => {
   }, []);
 
   return (
-    <Container id="me">
+    <Container id="recent">
       <ContentColumn>
         <ProjectCard>
           <Title>Hostel Management System</Title>
@@ -217,10 +196,6 @@ const Myself = () => {
           </TechScrollContainer>
         </ProjectCard>
       </ContentColumn>
-
-      <VisualizationContainer>
-        <Wormhole />
-      </VisualizationContainer>
     </Container>
   );
 };
