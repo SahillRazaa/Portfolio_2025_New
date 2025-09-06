@@ -235,7 +235,7 @@ const projectDisplay = [
   {
     id: 12,
     title: "My Portfolio",
-    date: "2025-05-01", // May, 2025
+    date: "2025-05-01",
     duration: "May, 2025 - June, 2025",
     image: Project9,
     type: "Personal",
@@ -715,9 +715,9 @@ const experience = [
 const achievements = [
   {
     id: 1,
-    title: "LeetCode Problem Solver",
+    title: "Competitive Coding",
     description:
-      "Solved 400+ coding challenges on LeetCode, with 65% at medium difficulty, showcasing proficiency in arrays, trees, graphs, and DP.",
+      "Solved 750+ coding challenges on LeetCode, with 65% at medium difficulty, showcasing proficiency in arrays, trees, graphs, and DP.",
     logo: Leetcode,
     date: "Ongoing",
   },
