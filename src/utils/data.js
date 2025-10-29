@@ -34,7 +34,6 @@ import JupyterImage from "../assets/jupyter.png";
 import WAMS from "../assets/brands/WAMS.png";
 import Certimate from "../assets/brands/certimate.png";
 import IIITDMK from "../assets/brands/iiitdm_logo.png";
-import Ekaura from "../assets/brands/ekaura.png";
 
 import Selvaraj from "../assets/testimonial_images/selvaraj.jpeg";
 import Harsha from "../assets/testimonial_images/harsha.jpg";
@@ -484,7 +483,7 @@ const projectDetails = [
     ],
   },
   {
-    id: 89,
+    id: 8,
     headline: "Plantify Web – A Figma to React UI Transformation",
     github: "https://github.com/SahillRazaa/Plantify_web_app",
     description:
@@ -681,22 +680,13 @@ const experience = [
     logo: WAMS,
     type: "Remote",
   },
-  // {
-  //   id: 2,
-  //   title: "Ekaura",
-  //   role: "Web Designer",
-  //   description: "Designed and developed both B2B and B2C eCommerce websites for Ekaura using Wix, creating a luxury brand experience through refined UI/UX, optimized layout, and platform-specific customization.",
-  //   date: "Feb, 2025 - April, 2025",
-  //   logo: Ekaura,
-  //   type: "Remote"
-  // },
   {
     id: 2,
     title: "Certimate Infotech Pvt. Ltd.",
     role: "Software Engineer Intern",
     description:
       "Developing a next-generation Conference Management System at Certimate, integrating advanced features to streamline workflows, enhance organizer experience, and address key gaps in existing market solutions.",
-    date: "April, 2025 - Present",
+    date: "April, 2025 - July, 2025",
     logo: Certimate,
     type: "Remote",
   },
@@ -717,7 +707,7 @@ const achievements = [
     id: 1,
     title: "Competitive Coding",
     description:
-      "Solved 750+ coding challenges on LeetCode, with 65% at medium difficulty, showcasing proficiency in arrays, trees, graphs, and DP.",
+      "Developed robust algorithmic thinking by consistently solving complex problems on LeetCode, Codeforce, HackerRank , etc culminating in a peak rating of 1743 (LeetCode) and a portfolio of 750+ solved challenges.",
     logo: Leetcode,
     date: "Ongoing",
   },
